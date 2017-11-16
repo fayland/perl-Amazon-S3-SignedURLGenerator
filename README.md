@@ -13,7 +13,7 @@ Amazon::S3::SignedURLGenerator - Amazon S3 Signed URL Generator
         expires => 600, # 10 minutes
     );
 
-    my $url = $generator->generate_url('GET', '/path/file.txt', {});
+    my $url = $generator->generate_url('GET', 'path/file.txt', {});
 
 # DESCRIPTION
 
