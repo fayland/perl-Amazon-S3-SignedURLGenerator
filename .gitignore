@@ -1,0 +1,7 @@
+/Amazon-S3-SignedURLGenerator-*
+/.build
+/_build*
+/Build
+MYMETA.*
+!META.json
+/.prove
