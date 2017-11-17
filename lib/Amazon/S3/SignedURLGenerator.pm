@@ -1,7 +1,7 @@
 package Amazon::S3::SignedURLGenerator;
 
 use strict;
-use 5.008_005;
+use warnings;
 our $VERSION = '0.01';
 
 use Carp;
@@ -173,7 +173,5 @@ Copyright 2017- Fayland Lam
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
-
-=head1 SEE ALSO
 
 =cut
