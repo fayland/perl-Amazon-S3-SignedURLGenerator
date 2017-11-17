@@ -50,7 +50,18 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.01",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/fayland/perl-Amazon-S3-SignedURLGenerator/issues"
+      },
+      "homepage" : "https://github.com/fayland/perl-Amazon-S3-SignedURLGenerator",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/fayland/perl-Amazon-S3-SignedURLGenerator.git",
+         "web" : "https://github.com/fayland/perl-Amazon-S3-SignedURLGenerator"
+      }
+   },
+   "version" : "0.02",
    "x_serialization_backend" : "Cpanel::JSON::XS version 3.023"
 }
 
